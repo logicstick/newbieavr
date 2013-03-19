@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	// TODO: Initialize Two port to be output and one port to be input on PORTB
+	// DONE: Initialize Two port to be output and one port to be input on PORTB
 	DDRB |= (1 << PINB0) | (1 << PINB1);	// Set pin 0 as output and pin 2
 	
 	DDRB &= ~(1 << PINB2);					// Make sure that you have set the pinb2 to input
@@ -23,11 +23,11 @@ int main(void)
     while(1)
     {
 		if(bit_is_clear(PINB, PINB2)){
-			// TODO: Set the LED on pin b1 to high
+			// DONE: Set the LED on pin b1 to high
 			PORTB |= (1 << PINB1);
 			PORTB &= ~(1 << PINB0);
 		} else {
-			// TODO: Set the LED on pin b0 to high
+			// DONE: Set the LED on pin b0 to high
 			PORTB |= (1 << PINB0);
 			PORTB &= ~(1 << PINB1);
 		}

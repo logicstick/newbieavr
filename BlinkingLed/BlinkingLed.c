@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	// TODO: Initialize the port B for the following task
+	// DONE: Initialize the port B for the following task
 	DDRB |= 1 << PINB0;  // Set the data direction bit of pin 0 on port B
 	
 	
