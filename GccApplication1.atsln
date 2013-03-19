@@ -5,6 +5,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "GccApplication1", "GccAppli
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "BlinkingLed", "BlinkingLed\BlinkingLed.cproj", "{3A45DE56-D7CF-464E-8318-85554A63719B}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "TwoLedWithButton", "TwoLedWithButton\TwoLedWithButton.cproj", "{1AB230BB-F55E-463D-BC55-D124364CA2C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -19,6 +21,10 @@ Global
 		{3A45DE56-D7CF-464E-8318-85554A63719B}.Debug|AVR.Build.0 = Debug|AVR
 		{3A45DE56-D7CF-464E-8318-85554A63719B}.Release|AVR.ActiveCfg = Release|AVR
 		{3A45DE56-D7CF-464E-8318-85554A63719B}.Release|AVR.Build.0 = Release|AVR
+		{1AB230BB-F55E-463D-BC55-D124364CA2C3}.Debug|AVR.ActiveCfg = Debug|AVR
+		{1AB230BB-F55E-463D-BC55-D124364CA2C3}.Debug|AVR.Build.0 = Debug|AVR
+		{1AB230BB-F55E-463D-BC55-D124364CA2C3}.Release|AVR.ActiveCfg = Release|AVR
+		{1AB230BB-F55E-463D-BC55-D124364CA2C3}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
