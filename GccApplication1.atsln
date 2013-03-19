@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "GccApplication1", "GccApplication1\GccApplication1.cproj", "{CD2DD7BC-ED6C-4078-B50B-8AB9E3D0040D}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "BlinkingLed", "BlinkingLed\BlinkingLed.cproj", "{3A45DE56-D7CF-464E-8318-85554A63719B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD2DD7BC-ED6C-4078-B50B-8AB9E3D0040D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{CD2DD7BC-ED6C-4078-B50B-8AB9E3D0040D}.Debug|AVR.Build.0 = Debug|AVR
+		{CD2DD7BC-ED6C-4078-B50B-8AB9E3D0040D}.Release|AVR.ActiveCfg = Release|AVR
+		{CD2DD7BC-ED6C-4078-B50B-8AB9E3D0040D}.Release|AVR.Build.0 = Release|AVR
+		{3A45DE56-D7CF-464E-8318-85554A63719B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{3A45DE56-D7CF-464E-8318-85554A63719B}.Debug|AVR.Build.0 = Debug|AVR
+		{3A45DE56-D7CF-464E-8318-85554A63719B}.Release|AVR.ActiveCfg = Release|AVR
+		{3A45DE56-D7CF-464E-8318-85554A63719B}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

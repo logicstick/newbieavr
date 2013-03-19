@@ -1,0 +1,14 @@
+GccApplication1\Debug
+
+GccApplication1/Debug
+
+*.d
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.o
+*.srec
+*.mk
+Makefile
