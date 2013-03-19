@@ -7,15 +7,17 @@
 
 
 #include <avr/io.h>
+#include <util/delay.h>
 
 int main(void)
 {
 	// TODO: Initialize the port B for the following task
 	DDRB |= 1 << PINB0;  // Set the data direction bit of pin 0 on port B
-	PORTB |= 1 << PINB0; // Set High on Port B pin 0
+	
 	
     while(1)
     {
-        //TODO:: Please write your application code 
+		PORTB ^= 1 << PINB0; // Set High on Port B pin 0
+        _delay_ms(100);
     }
 }
