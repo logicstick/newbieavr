@@ -9,6 +9,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "TwoLedWithButton", "TwoLedW
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "TwoLedBlinkingSpeedChange", "TwoLedBlinkingSpeedChange\TwoLedBlinkingSpeedChange.cproj", "{EED0C1DB-686B-4ED0-9C66-435380379A89}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "DebounceButton", "DebounceButton\DebounceButton.cproj", "{303A2356-8020-4BBE-9508-C2DE3F97E052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -31,6 +33,10 @@ Global
 		{EED0C1DB-686B-4ED0-9C66-435380379A89}.Debug|AVR.Build.0 = Debug|AVR
 		{EED0C1DB-686B-4ED0-9C66-435380379A89}.Release|AVR.ActiveCfg = Release|AVR
 		{EED0C1DB-686B-4ED0-9C66-435380379A89}.Release|AVR.Build.0 = Release|AVR
+		{303A2356-8020-4BBE-9508-C2DE3F97E052}.Debug|AVR.ActiveCfg = Debug|AVR
+		{303A2356-8020-4BBE-9508-C2DE3F97E052}.Debug|AVR.Build.0 = Debug|AVR
+		{303A2356-8020-4BBE-9508-C2DE3F97E052}.Release|AVR.ActiveCfg = Release|AVR
+		{303A2356-8020-4BBE-9508-C2DE3F97E052}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
