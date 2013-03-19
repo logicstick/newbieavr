@@ -12,6 +12,8 @@ This is a application where I wait for some time and then toggle the status of L
 
 This project contains two led and a button. On pressing of button which is attached to pin2 of port B. The other LED glows and the previous one goes off.
 
+4. TwoLedBlinkingSpeedChange
+This project contains two led and a button. On pressing of button which is attached to pin2 of port B. The other LED glows and the previous one goes off. and stays to that position permanently.
 
 Please check this repo of library.
 
