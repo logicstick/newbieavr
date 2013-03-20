@@ -21,6 +21,12 @@ This project contains software implementation of debouncing rather than adding o
 6. ButtonGame
 This project will try to create a game in which LEDS are connected on port B and on PORT D. And these LEDs can be triggered with button. The faster someone presses the button that player will win.
 
+7. TcNTLightBlinking
+This project will start with TCNT and will work uptill we are able to blink LED once a second.
+
+8. TCNT_DIGITAL_CLOCK
+This project will create a clock which will show 1second and 1/7th of a second.
+
 
 Please check this repo of library.
 
