@@ -19,6 +19,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "TCNT_Digital_Clock", "TCNT_
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Interrupts", "Interrupts\Interrupts.cproj", "{32B37478-E57F-4618-AA78-49D0AD83F6FC}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "LcdExample1", "LcdExample1\LcdExample1.cproj", "{FA58E057-94BA-4B72-9846-AB2ABE379B55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -61,6 +63,10 @@ Global
 		{32B37478-E57F-4618-AA78-49D0AD83F6FC}.Debug|AVR.Build.0 = Debug|AVR
 		{32B37478-E57F-4618-AA78-49D0AD83F6FC}.Release|AVR.ActiveCfg = Release|AVR
 		{32B37478-E57F-4618-AA78-49D0AD83F6FC}.Release|AVR.Build.0 = Release|AVR
+		{FA58E057-94BA-4B72-9846-AB2ABE379B55}.Debug|AVR.ActiveCfg = Debug|AVR
+		{FA58E057-94BA-4B72-9846-AB2ABE379B55}.Debug|AVR.Build.0 = Debug|AVR
+		{FA58E057-94BA-4B72-9846-AB2ABE379B55}.Release|AVR.ActiveCfg = Release|AVR
+		{FA58E057-94BA-4B72-9846-AB2ABE379B55}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

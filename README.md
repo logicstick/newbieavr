@@ -30,6 +30,9 @@ This project will create a clock which will show 1second and 1/7th of a second.
 9. Interrupt
 This project is introduction to interrupts where we are comparing data in Compare register with TCNT1 counter.Once the compare is triggered we will handle that trigger via an interrupt.
 
+10. LCD Example1
+This project contains the basic interface to LCD. The result shows stream of characters on the screen.
+
 Please check this repo of library.
 
 http://nongnu.org/avr-libc/user-manual/modules.html
