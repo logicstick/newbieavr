@@ -10,17 +10,17 @@
 
 int main(void)
 {
-	// TODO: We have to initialize 7 LED on each side
+	// DONE: We have to initialize 7 LED on each side
 	DDRB = 0b00000001;
 	PORTB = 0b00000000;
-	// TODO: Initialize the counter 16 bits i.e. TCNT1
+	// DONE: Initialize the counter 16 bits i.e. TCNT1
 	TCCR1B |= (1 << CS10);  // Set pre-scaling of 1
 	
 	uint8_t repeatCount = 0;
 	
     while(1)
     {
-        //TODO:: Blink the led at appropriate times
+        //DONE:: Blink the led at appropriate times
 		if (TCNT1 > 10000)
 		{
 			repeatCount++;
