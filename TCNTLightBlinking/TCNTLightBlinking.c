@@ -16,14 +16,22 @@ int main(void)
 	// TODO: Initialize the counter 16 bits i.e. TCNT1
 	TCCR1B |= (1 << CS10);  // Set pre-scaling of 1
 	
+	uint8_t repeatCount = 0;
+	
     while(1)
     {
         //TODO:: Blink the led at appropriate times
 		if (TCNT1 > 10000)
 		{
+			repeatCount++;
 			// After it has counter to 10,000 make the counter zero
 			TCNT1 = 0;
-			PORTB ^= (1 << PINB0);
+			if (repeatCount > 100)
+			{
+				PORTB ^= (1 << PINB0);
+				repeatCount = 0;
+			}
+			
 		}
     }
 }
