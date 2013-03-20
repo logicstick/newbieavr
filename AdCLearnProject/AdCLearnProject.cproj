@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>6.0</ProjectVersion>
+    <ToolchainName>com.Atmel.AVRGCC8</ToolchainName>
+    <ProjectGuid>{4691e50b-7f29-49c5-a4cd-bc06a40ce62b}</ProjectGuid>
+    <avrdevice>ATmega32</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>Executable</OutputType>
+    <Language>C</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>AdCLearnProject</AssemblyName>
+    <Name>AdCLearnProject</Name>
+    <RootNamespace>AdCLearnProject</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+  <options>
+    <option id="common.services.basic.gpio" value="Add" config="" content-id="Atmel.ASF" />
+  </options>
+  <configurations />
+  <files>
+    <file path="src/asf/common/services/gpio/gpio.h" framework="" version="" source="common\services\gpio\gpio.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/common/services/gpio/mega_gpio/mega_gpio.h" framework="" version="" source="common\services\gpio\mega_gpio\mega_gpio.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/common/services/ioport/ioport.h" framework="" version="" source="common\services\ioport\ioport.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/common/services/ioport/mega/ioport.h" framework="" version="" source="common\services\ioport\mega\ioport.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/common/utils/interrupt.h" framework="" version="" source="common\utils\interrupt.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/common/utils/interrupt/interrupt_avr8.h" framework="" version="" source="common\utils\interrupt\interrupt_avr8.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/common/utils/parts.h" framework="" version="" source="common\utils\parts.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/mega/utils/compiler.h" framework="" version="" source="mega\utils\compiler.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/mega/utils/status_codes.h" framework="" version="" source="mega\utils\status_codes.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/mega/utils/progmem.h" framework="" version="" source="mega\utils\progmem.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/mega/utils/assembler.h" framework="" version="" source="mega\utils\assembler.h" changed="False" content-id="Atmel.ASF" />
+    <file path="src/asf/mega/utils/assembler/gas.h" framework="" version="" source="mega\utils\assembler\gas.h" changed="False" content-id="Atmel.ASF" />
+  </files>
+  <documentation help="" />
+</framework-data>
+    </AsfFrameworkConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrGcc>
+  <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+  <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+  <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+  <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+  <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+  <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+  <avrgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>../src/asf/common/services/gpio</Value>
+      <Value>../src/asf/common/services/ioport</Value>
+      <Value>../src/asf/common/utils</Value>
+      <Value>../src/asf/mega/utils</Value>
+    </ListValues>
+  </avrgcc.compiler.directories.IncludePaths>
+  <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+  <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+  <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+  <avrgcc.linker.libraries.Libraries>
+    <ListValues>
+      <Value>m</Value>
+    </ListValues>
+  </avrgcc.linker.libraries.Libraries>
+  <avrgcc.assembler.general.IncludePaths>
+    <ListValues>
+      <Value>../src/asf/common/services/gpio</Value>
+      <Value>../src/asf/common/services/ioport</Value>
+      <Value>../src/asf/common/utils</Value>
+      <Value>../src/asf/mega/utils</Value>
+    </ListValues>
+  </avrgcc.assembler.general.IncludePaths>
+</AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrGcc>
+  <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+  <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+  <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+  <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+  <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+  <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+  <avrgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>../src/asf/common/services/gpio</Value>
+      <Value>../src/asf/common/services/ioport</Value>
+      <Value>../src/asf/common/utils</Value>
+      <Value>../src/asf/mega/utils</Value>
+    </ListValues>
+  </avrgcc.compiler.directories.IncludePaths>
+  <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
+  <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+  <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+  <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+  <avrgcc.linker.libraries.Libraries>
+    <ListValues>
+      <Value>m</Value>
+    </ListValues>
+  </avrgcc.linker.libraries.Libraries>
+  <avrgcc.assembler.general.IncludePaths>
+    <ListValues>
+      <Value>../src/asf/common/services/gpio</Value>
+      <Value>../src/asf/common/services/ioport</Value>
+      <Value>../src/asf/common/utils</Value>
+      <Value>../src/asf/mega/utils</Value>
+    </ListValues>
+  </avrgcc.assembler.general.IncludePaths>
+  <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
+</AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AdCLearnProject.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="MrLcd.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="MrLcd.h">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>

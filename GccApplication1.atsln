@@ -21,6 +21,10 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Interrupts", "Interrupts\In
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "LcdExample1", "LcdExample1\LcdExample1.cproj", "{FA58E057-94BA-4B72-9846-AB2ABE379B55}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "MrLcd", "MrLcd\MrLcd.cproj", "{9A48820E-37A5-4893-9E01-154ABFD441F4}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "AdCLearnProject", "AdCLearnProject\AdCLearnProject.cproj", "{4691E50B-7F29-49C5-A4CD-BC06A40CE62B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -67,6 +71,14 @@ Global
 		{FA58E057-94BA-4B72-9846-AB2ABE379B55}.Debug|AVR.Build.0 = Debug|AVR
 		{FA58E057-94BA-4B72-9846-AB2ABE379B55}.Release|AVR.ActiveCfg = Release|AVR
 		{FA58E057-94BA-4B72-9846-AB2ABE379B55}.Release|AVR.Build.0 = Release|AVR
+		{9A48820E-37A5-4893-9E01-154ABFD441F4}.Debug|AVR.ActiveCfg = Debug|AVR
+		{9A48820E-37A5-4893-9E01-154ABFD441F4}.Debug|AVR.Build.0 = Debug|AVR
+		{9A48820E-37A5-4893-9E01-154ABFD441F4}.Release|AVR.ActiveCfg = Release|AVR
+		{9A48820E-37A5-4893-9E01-154ABFD441F4}.Release|AVR.Build.0 = Release|AVR
+		{4691E50B-7F29-49C5-A4CD-BC06A40CE62B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{4691E50B-7F29-49C5-A4CD-BC06A40CE62B}.Debug|AVR.Build.0 = Debug|AVR
+		{4691E50B-7F29-49C5-A4CD-BC06A40CE62B}.Release|AVR.ActiveCfg = Release|AVR
+		{4691E50B-7F29-49C5-A4CD-BC06A40CE62B}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
