@@ -13,6 +13,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "DebounceButton", "DebounceB
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ButtonGame", "ButtonGame\ButtonGame.cproj", "{D0A2ED12-EAC6-4996-8DE8-FD74F6992EA6}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "TCNTLightBlinking", "TCNTLightBlinking\TCNTLightBlinking.cproj", "{CBB61439-6BF2-404B-9C2A-9573864964C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -43,6 +45,10 @@ Global
 		{D0A2ED12-EAC6-4996-8DE8-FD74F6992EA6}.Debug|AVR.Build.0 = Debug|AVR
 		{D0A2ED12-EAC6-4996-8DE8-FD74F6992EA6}.Release|AVR.ActiveCfg = Release|AVR
 		{D0A2ED12-EAC6-4996-8DE8-FD74F6992EA6}.Release|AVR.Build.0 = Release|AVR
+		{CBB61439-6BF2-404B-9C2A-9573864964C8}.Debug|AVR.ActiveCfg = Debug|AVR
+		{CBB61439-6BF2-404B-9C2A-9573864964C8}.Debug|AVR.Build.0 = Debug|AVR
+		{CBB61439-6BF2-404B-9C2A-9573864964C8}.Release|AVR.ActiveCfg = Release|AVR
+		{CBB61439-6BF2-404B-9C2A-9573864964C8}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
