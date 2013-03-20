@@ -27,6 +27,8 @@ This project will start with TCNT and will work uptill we are able to blink LED 
 8. TCNT_DIGITAL_CLOCK
 This project will create a clock which will show 1second and 1/7th of a second.
 
+9. Interrupt
+This project is introduction to interrupts where we are comparing data in Compare register with TCNT1 counter.Once the compare is triggered we will handle that trigger via an interrupt.
 
 Please check this repo of library.
 

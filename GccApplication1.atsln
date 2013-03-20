@@ -17,6 +17,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "TCNTLightBlinking", "TCNTLi
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "TCNT_Digital_Clock", "TCNT_Digital_Clock\TCNT_Digital_Clock.cproj", "{32E18486-AEE5-4CE5-BE52-6E2BB970FFA7}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Interrupts", "Interrupts\Interrupts.cproj", "{32B37478-E57F-4618-AA78-49D0AD83F6FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -55,6 +57,10 @@ Global
 		{32E18486-AEE5-4CE5-BE52-6E2BB970FFA7}.Debug|AVR.Build.0 = Debug|AVR
 		{32E18486-AEE5-4CE5-BE52-6E2BB970FFA7}.Release|AVR.ActiveCfg = Release|AVR
 		{32E18486-AEE5-4CE5-BE52-6E2BB970FFA7}.Release|AVR.Build.0 = Release|AVR
+		{32B37478-E57F-4618-AA78-49D0AD83F6FC}.Debug|AVR.ActiveCfg = Debug|AVR
+		{32B37478-E57F-4618-AA78-49D0AD83F6FC}.Debug|AVR.Build.0 = Debug|AVR
+		{32B37478-E57F-4618-AA78-49D0AD83F6FC}.Release|AVR.ActiveCfg = Release|AVR
+		{32B37478-E57F-4618-AA78-49D0AD83F6FC}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
